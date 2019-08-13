@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="invertButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0+AgAAAAAAADYAAAAoAAAADQAAAA0AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0AHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAHR0dAB0dHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0dHR0dHR0dHR0dHR0dHR0dHR0AAAAAAAAdHR0AHR0dAAAAAAAAHR0dAAAAAAAAAAAAAAAAAAA
+        AHR0dAAAAAAAAHR0dAB0dHQAAAAAAAB0dHQAAAAAAAAAAAAAAAAAAAB0dHQAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0AAAAAAAAAAAAAAAAAAAAdHR0AAAAAAAAdHR0AHR0dAAAAAAAAHR0dHR0dHR0dHR0dHR0dHR0
+        dHR0dAAAAAAAAHR0dAB0dHQAAAAAAAB0dHR0dHR0dHR0dHR0dHR0dHR0dHQAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0dHR0dHR0dHR0dHR0dHR0dHR0AAAAAAAAdHR0AHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAHR0dAB0dHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0dHQAdHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0AA==
+</value>
+  </data>
+  <data name="invertButton.ImageSwitchOnOne" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0+AgAAAAAAADYAAAAoAAAADQAAAA0AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSANLS0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANLS0gDS0tIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADS0tIA0tLSAAAA
+        AAAA0tLS0tLS0tLS0tLS0tLS0tLS0tLSAAAAAAAA0tLSANLS0gAAAAAAANLS0gAAAAAAAAAAAAAAAAAA
+        ANLS0gAAAAAAANLS0gDS0tIAAAAAAADS0tIAAAAAAAAAAAAAAAAAAADS0tIAAAAAAADS0tIA0tLSAAAA
+        AAAA0tLSAAAAAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLSANLS0gAAAAAAANLS0tLS0tLS0tLS0tLS0tLS
+        0tLS0gAAAAAAANLS0gDS0tIAAAAAAADS0tLS0tLS0tLS0tLS0tLS0tLS0tIAAAAAAADS0tIA0tLSAAAA
+        AAAA0tLS0tLS0tLS0tLS0tLS0tLS0tLSAAAAAAAA0tLSANLS0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANLS0gDS0tIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADS0tIA0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAA==
+</value>
+  </data>
+  <data name="invertButton.ImageSwitchOnTwo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0+AgAAAAAAADYAAAAoAAAADQAAAA0AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0AHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAHR0dAB0dHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0dHR0dHR0dHR0dHR0dHR0dHR0AAAAAAAAdHR0AHR0dAAAAAAAAHR0dAAAAAAAAAAAAAAAAAAA
+        AHR0dAAAAAAAAHR0dAB0dHQAAAAAAAB0dHQAAAAAAAAAAAAAAAAAAAB0dHQAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0AAAAAAAAAAAAAAAAAAAAdHR0AAAAAAAAdHR0AHR0dAAAAAAAAHR0dHR0dHR0dHR0dHR0dHR0
+        dHR0dAAAAAAAAHR0dAB0dHQAAAAAAAB0dHR0dHR0dHR0dHR0dHR0dHR0dHQAAAAAAAB0dHQAdHR0AAAA
+        AAAAdHR0dHR0dHR0dHR0dHR0dHR0dHR0AAAAAAAAdHR0AHR0dAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAHR0dAB0dHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0dHQAdHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0AA==
+</value>
+  </data>
+  <data name="centerButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eAgAAAAAAADYAAAAoAAAADgAAAA4AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAf39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/
+        f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH9/f39/fwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAB/f39/f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAf39/f39/f39/f39/f39/AAAAAAAAAAAAAAAAf39/f39/f39/f39/f39/
+        AAB/f39/f39/f39/f39/f38AAAAAAAAAAAAAAAB/f39/f39/f39/f39/f38AAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf39/f39/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAH9/f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        f39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/f38AAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="centerButton.ImageSwitchOnOne" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eAgAAAAAAADYAAAAoAAAADgAAAA4AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA0tLS0tLSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADS0tLS
+        0tIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANLS0tLS0gAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAADS0tLS0tIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAA0tLS0tLS0tLS0tLS0tLS
+        AADS0tLS0tLS0tLS0tLS0tIAAAAAAAAAAAAAAADS0tLS0tLS0tLS0tLS0tIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLSAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADS0tLS0tIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAANLS0tLS0gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        0tLS0tLSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADS0tLS0tIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="centerButton.ImageSwitchOnTwo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eAgAAAAAAADYAAAAoAAAADgAAAA4AAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAf39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/
+        f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH9/f39/fwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAB/f39/f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAf39/f39/f39/f39/f39/AAAAAAAAAAAAAAAAf39/f39/f39/f39/f39/
+        AAB/f39/f39/f39/f39/f38AAAAAAAAAAAAAAAB/f39/f39/f39/f39/f38AAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf39/f39/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/f38AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAH9/f39/fwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        f39/f39/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/f39/f38AAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="dicomButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA0tLS0tLSAAAAAAAA0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAA
+        AAAA0tLSAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAA
+        AAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAA
+        AAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAA
+        AAAA0tLSAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAA0tLS0tLSAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS
+        0tLS0tLS
+</value>
+  </data>
+  <data name="dicomButton.ImageSwitchOnOne" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAA0tLS0tLSAAAAAAAA0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAA
+        AAAA0tLSAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAA
+        AAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAA
+        AAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAAAAAAAAAA0tLSAAAAAAAA0tLS0tLSAAAAAAAA0tLSAAAAAAAA
+        AAAA0tLSAAAAAAAAAAAA0tLS0tLSAAAAAAAA0tLS0tLS0tLS0tLSAAAAAAAAAAAAAAAA0tLS0tLSAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS
+        0tLS0tLS
+</value>
+  </data>
+  <data name="dicomButton.ImageSwitchOnTwo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdHR0dHR0
+        dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0GwcGGwcGGwcGGwcGGwcGGwcGGwcGGwcGGwcG
+        GwcGdHR0dHR0GwcGGwcGf39/f39/f39/f39/GwcGGwcGGwcGGwcGdHR0dHR0GwcGGwcGf39/GwcGGwcG
+        GwcGf39/GwcGGwcGGwcGdHR0dHR0GwcGGwcGf39/GwcGGwcGGwcGGwcGf39/GwcGGwcGdHR0dHR0GwcG
+        GwcGf39/GwcGGwcGGwcGGwcGf39/GwcGGwcGdHR0dHR0GwcGGwcGf39/GwcGGwcGGwcGGwcGf39/GwcG
+        GwcGdHR0dHR0GwcGGwcGf39/GwcGGwcGGwcGGwcGf39/GwcGGwcGdHR0dHR0GwcGGwcGf39/GwcGGwcG
+        GwcGf39/GwcGGwcGGwcGdHR0dHR0GwcGGwcGf39/f39/f39/f39/GwcGGwcGGwcGGwcGdHR0dHR0GwcG
+        GwcGGwcGGwcGGwcGGwcGGwcGGwcGGwcGGwcGdHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0
+        dHR0dHR0
+</value>
+  </data>
+  <data name="closeButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVktDampq
+        ampqampqVktDAAAAAAAAVktDampqampqampqVktDampqREREREREREREampqVktDVktDampqRERERERE
+        REREampqampqREREREREREREREREampqampqREREREREREREREREampqampqRERERERERERERERERERE
+        REREREREREREREREREREampqVktDampqREREREREREREREREREREREREREREREREampqVktDAAAAVktD
+        ampqREREREREREREREREREREREREampqVktDAAAAAAAAVktDampqREREREREREREREREREREREREampq
+        VktDAAAAVktDampqREREREREREREREREREREREREREREREREampqVktDampqRERERERERERERERERERE
+        REREREREREREREREREREampqampqREREREREREREREREampqampqREREREREREREREREampqampqRERE
+        REREREREampqVktDVktDampqREREREREREREampqVktDampqampqampqVktDAAAAAAAAVktDampqampq
+        ampqVktD
+</value>
+  </data>
+  <data name="closeButton.ImageSwitchOnOne" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVktDampq
+        ampqampqVktDAAAAAAAAVktDampqampqampqVktDampq0tLS0tLS0tLSampqVktDVktDampq0tLS0tLS
+        0tLSampqampq0tLS0tLS0tLS0tLSampqampq0tLS0tLS0tLS0tLSampqampq0tLS0tLS0tLS0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLSampqVktDampq0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSampqVktDAAAAVktD
+        ampq0tLS0tLS0tLS0tLS0tLS0tLSampqVktDAAAAAAAAVktDampq0tLS0tLS0tLS0tLS0tLS0tLSampq
+        VktDAAAAVktDampq0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSampqVktDampq0tLS0tLS0tLS0tLS0tLS
+        0tLS0tLS0tLS0tLS0tLSampqampq0tLS0tLS0tLS0tLSampqampq0tLS0tLS0tLS0tLSampqampq0tLS
+        0tLS0tLSampqVktDVktDampq0tLS0tLS0tLSampqVktDampqampqampqVktDAAAAAAAAVktDampqampq
+        ampqVktD
+</value>
+  </data>
+  <data name="closeButton.ImageSwitchOnTwo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk3mAQAAAAAAADYAAAAoAAAADAAAAAwAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVktDampq
+        ampqampqVktDAAAAAAAAVktDampqampqampqVktDampqREREREREREREampqVktDVktDampqRERERERE
+        REREampqampqREREREREREREREREampqampqREREREREREREREREampqampqRERERERERERERERERERE
+        REREREREREREREREREREampqVktDampqREREREREREREREREREREREREREREREREampqVktDAAAAVktD
+        ampqREREREREREREREREREREREREampqVktDAAAAAAAAVktDampqREREREREREREREREREREREREampq
+        VktDAAAAVktDampqREREREREREREREREREREREREREREREREampqVktDampqRERERERERERERERERERE
+        REREREREREREREREREREampqampqREREREREREREREREampqampqREREREREREREREREampqampqRERE
+        REREREREampqVktDVktDampqREREREREREREampqVktDampqampqampqVktDAAAAAAAAVktDampqampq
+        ampqVktD
+</value>
+  </data>
+  <data name="increaseButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0mBAAAAAAAADYAAAAoAAAAEgAAABIAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFFRUV
+        FRUVFRUVFRUVFRUVBQUFAAAAAAAAAAAAAAAAAAAAFRUVFRUVFRUVFRUVFRUVEBAQAAArKytYV1dYV1dY
+        V1dYV1dYV1cmJSUAAAAAAAAAAAAAAAAQEBBYV1dYV1dYV1dYV1dYV1dBQUEAACsrK1hXV1hXV1hXV1hX
+        VzY2NgAAAAAAAAAAAAAAAAAAAAAAACAgIFhXV1hXV1hXV1hXV0FBQQAAKysrWFdXWFdXWFdXWFdXICAg
+        AAAAAAAAAAAAAAAAAAAAAAAAEBAQUlFRWFdXWFdXWFdXQUFBAAArKytYV1dYV1dYV1dYV1dYV1cgICAA
+        AAAAAAAAAAAAAAAQEBBSUVFYV1dYV1dYV1dYV1dBQUEAACsrK1hXVzY2NjY2NlhXV1hXV1hXVyAgIAAA
+        AAAAABAQEFJRUVhXV1hXV1JRUSsrK1hXV0FBQQAAICAgMTAwAAAAAAAANjY2WFdXWFdXWFdXAAAAAAAA
+        QUFBWFdXWFdXUlFREBAQAAAAICAgMTAwAAAAAAAAAAAAAAAAAAAAAAA2NjZYV1cgICAAAAAAAAAQEBBS
+        UVFSUVEQEBAAAAAAAAAAAAAAAAAAAAUFBQUFBQUFBQQEBAQEBAQEBBQUFAQEBAQEBAQEBAQEBA0NDQ0N
+        DQMDAwMDAwQEBAQEBAQEBAAABAQEBQUFBAQEBQUFBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAwMD
+        BAQEBAQEBAQEAwMDAAAFBQUEBAQEBAQEBAQEBAQJCQkoJycEBAQEBAQEBAQEBAQdHBweHR0EBAQDAwME
+        BAQEBAQDAwMAAAQEBAQEBAQEBAQEBAkJCUhHR1hXVzg4OAQEBAQEBCMjI1hXV1hXVyMjIwQEBAQEBAQE
+        BAQEBAAALS0tSEdHCQkJCQkJSEdHWFdXWFdXUlFRDg4OBAQEPTw8WFdXWFdXWFdXIyMjBAQEODg4QkJC
+        AAAtLS1YV1dIR0dIR0dYV1dYV1dSUVETExMEBAQEBAQJCQlIR0dYV1dYV1dYV1dCQkJYV1dCQkIAAC0t
+        LVhXV1hXV1hXV1hXV1JRURMTEwQEBAQEBAQEBAQEBAkJCUhHR1hXV1hXV1hXV1hXV0JCQgAALS0tWFdX
+        WFdXWFdXWFdXGBgYBAQEBAQEBAQEBAQEBAQEBAQECQkJUlFRWFdXWFdXWFdXQkJCAAAtLS1YV1dYV1dY
+        V1dYV1dIR0cJCQkEBAQEBAQEBAQEBAQEBAQ4ODhYV1dYV1dYV1dYV1dCQkIAACgnJ1hXV1hXV1hXV1hX
+        V1hXVygnJwQEBAQEBAQEBAQEBBMTE1hXV1hXV1hXV1hXV1hXV0JCQgAA
+</value>
+  </data>
+  <data name="increaseButton.ImageSwitchOnOne" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0mBAAAAAAAADYAAAAoAAAAEgAAABIAAAABABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFFRUV
+        FRUVFRUVFRUVFRUVBQUFAAAAAAAAAAAAAAAAAAAAFRUVFRUVFRUVFRUVFRUVEBAQAAArKytYV1dYV1dY
+        V1dYV1dYV1cmJSUAAAAAAAAAAAAAAAAQEBBYV1dYV1dYV1dYV1dYV1dBQUEAACsrK1hXV1hXV1hXV1hX
+        VzY2NgAAAAAAAAAAAAAAAAAAAAAAACAgIFhXV1hXV1hXV1hXV0FBQQAAKysrWFdXWFdXWFdXWFdXICAg
+        AAAAAAAAAAAAAAAAAAAAAAAAEBAQUlFRWFdXWFdXWFdXQUFBAAArKytYV1dYV1dYV1dYV1dYV1cgICAA
+        AAAAAAAAAAAAAAAQEBBSUVFYV1dYV1dYV1dYV1dBQUEAACsrK1hXVzY2NjY2NlhXV1hXV1hXVyAgIAAA
+        AAAAABAQEFJRUVhXV1hXV1JRUSsrK1hXV0FBQQAAICAgMTAwAAAAAAAANjY2WFdXWFdXWFdXAAAAAAAA
+        QUFBWFdXWFdXUlFREBAQAAAAICAgMTAwAAAAAAAAAAAAAAAAAAAAAAA2NjZYV1cgICAAAAAAAAAQEBBS
+        UVFSUVEQEBAAAAAAAAAAAAAAAAAAAAUFBQUFBQUFBQQEBAQEBAQEBBQUFAQEBAQEBAQEBAQEBA0NDQ0N
+        DQMDAwMDAwQEBAQEBAQEBAAABAQEBQUFBAQEBQUFBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAwMD
+        BAQEBAQEBAQEAwMDAAAFBQUEBAQEBAQEBAQEBAQJCQkoJycEBAQEBAQEBAQEBAQdHBweHR0EBAQDAwME
+        BAQEBAQDAwMAAAQEBAQEBAQEBAQEBAkJCUhHR1hXVzg4OAQEBAQEBCMjI1hXV1hXVyMjIwQEBAQEBAQE
+        BAQEBAAALS0tSEdHCQkJCQkJSEdHWFdXWFdXUlFRDg4OBAQEPTw8WFdXWFdXWFdXIyMjBAQEODg4QkJC
+        AAAtLS1YV1dIR0dIR0dYV1dYV1dSUVETExMEBAQEBAQJCQlIR0dYV1dYV1dYV1dCQkJYV1dCQkIAAC0t
+        LVhXV1hXV1hXV1hXV1JRURMTEwQEBAQEBAQEBAQEBAkJCUhHR1hXV1hXV1hXV1hXV0JCQgAALS0tWFdX
+        WFdXWFdXWFdXGBgYBAQEBAQEBAQEBAQEBAQEBAQECQkJUlFRWFdXWFdXWFdXQkJCAAAtLS1YV1dYV1dY
+        V1dYV1dIR0cJCQkEBAQEBAQEBAQEBAQEBAQ4ODhYV1dYV1dYV1dYV1dCQkIAACgnJ1hXV1hXV1hXV1hX
+        V1hXVygnJwQEBAQEBAQEBAQEBBMTE1hXV1hXV1hXV1hXV1hXV0JCQgAA
+</value>
+  </data>
+  <data name="increaseButton.ImageSwitchOnTwo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk0mBAAAAAAAADYAAAAoAAAAEgAAABIAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAAAAAGxoa
+        GxoaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQUFJiUlAAAAAAAgICBYV1dYV1cg
+        ICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFBQVHRkZYV1c2NjYAADw7O1hXV1hXV1hXVyAg
+        IAAAADY2NkFBQQAAAAAAACsrK0dGRgUFBQUFBUdGRlhXV1hXV1JRUQAABQUFR0ZGWFdXWFdXWFdXQUFB
+        WFdXQUFBAAAAAAAAKysrWFdXR0ZGR0ZGWFdXWFdXUlFREBAQAAAAAAAFBQVHRkZYV1dYV1dYV1dYV1dB
+        QUEAAAAAAAArKytYV1dYV1dYV1dYV1dSUVEQEBAAAAAAAAAAAAAAAAUFBVJRUVhXV1hXV1hXV0FBQQAA
+        AAAAACsrK1hXV1hXV1hXV1hXVxUVFQAAAAAAAAAAAAAAAAAANjY2WFdXWFdXWFdXWFdXQUFBAAAAAAAA
+        KysrWFdXWFdXWFdXWFdXR0ZGBQUFAAAAAAAAAAAQEBBYV1dYV1dYV1dYV1dYV1dBQUEAAAAAAAAmJSVY
+        V1dYV1dYV1dYV1dYV1cmJSUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAVFRUVFRUVFRUVFRUVFRUQEBAAAAAAAAAFBQUVFRUVFRUVFRUVFRUV
+        FRUFBQUAAAAAAAAAABAQEFhXV1hXV1hXV1hXV1hXV0FBQQAAAAAAACsrK1hXV1hXV1hXV1hXV1hXVyYl
+        JQAAAAAAAAAAAAAAICAgWFdXWFdXWFdXWFdXQUFBAAAAAAAAKysrWFdXWFdXWFdXWFdXNjY2AAAAAAAA
+        AAAAAAAAAAAQEBBSUVFYV1dYV1dYV1dBQUEAAAAAAAArKytYV1dYV1dYV1dYV1cgICAAAAAAAAAAAAAA
+        ABAQEFJRUVhXV1hXV1hXV1hXV0FBQQAAAAAAACsrK1hXV1hXV1hXV1hXV1hXVyAgIAAAAAAAEBAQUlFR
+        WFdXWFdXUlFRKysrWFdXQUFBAAAAAAAAKysrWFdXNjY2NjY2WFdXWFdXWFdXICAgAABBQUFYV1dYV1dS
+        UVEQEBAAAAAgICAxMDAAAAAAAAAgICAxMDAAAAAAAAA2NjZYV1dYV1dYV1cAABAQEFJRUVJRURAQEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADY2NlhXVyAgIAAA
+</value>
+  </data>
+</root>
