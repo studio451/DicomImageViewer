@@ -210,10 +210,10 @@
     <Content Include="RESOURCES\buttons\14x14_centerButton_light.bmp" />
     <Content Include="RESOURCES\buttons\18x18_decreaseButton.bmp" />
     <Content Include="RESOURCES\buttons\18x18_increaseButton.bmp" />
-    <Content Include="RESOURCES\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="LICENSE" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
